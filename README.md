@@ -18,6 +18,7 @@
 -> Otra para el fondo del nivel ( el cielo )
 
 ![img](./img/paletaSky.PNG)
+
 -> Mapa Rectángular generado:
 
 ![img](./img/mapaRectangular.PNG)
