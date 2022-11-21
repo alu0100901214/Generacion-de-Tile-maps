@@ -81,8 +81,3 @@
 
 ![gif](./GIF/fisico.gif)
 
-### E) ncluye dos capas que asignes a diferentes tipos de objetos y que permita evitar colisiones entre ellos.
-
--> 
-
-![gif](./GIF/fisico.gif)
