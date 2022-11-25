@@ -71,9 +71,9 @@
 
 ### C) Objeto que es arrastrado por otro a una distancia fija
 
--> Una caja con un Box Collider 2D y un RigidBody 2D que podremos empujar con nuestro personaje
+-> Agregamos un Distance Joint 2D a un objeto estático y lo conectamos con otro dinámico.
 
-![gif](./GIF/caja.gif)
+![gif](./GIF/joint.gif)
 
 ### D) Objeto que al colisionar con otros sigue un comportamiento totalmente físico.
 
@@ -81,3 +81,12 @@
 
 ![gif](./GIF/fisico.gif)
 
+### E) Incluye dos capas que asignes a diferentes tipos de objetos y que permita evitar colisiones entre ellos.
+
+-> He añadido 3 cajas con 3 layer diferentes (layer1, layer2 y layer3), despues vamos a Project settings y en Physiscs 2D ajustamos las colisiones entre layers.
+
+![img](./img/collisionLayer.PNG)
+
+-> Ahora ninguna de las cajas chocan entre si, al player le he añadido layer1 y puede empujar la caja con su mismo layer.
+
+![gif](./GIF/layers.gif)
